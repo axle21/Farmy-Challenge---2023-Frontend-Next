@@ -3,7 +3,7 @@
   align-items: center;
   justify-items: center;
   padding: 6rem;
-  min-height: calc(100vh - 85px);
+  height: calc(100vh - 85px);
 }
 
 .cardContainerGrid {
