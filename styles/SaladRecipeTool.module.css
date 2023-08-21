@@ -1,0 +1,32 @@
+.recipe_tool_container {
+  padding-top: 20px;
+  width: 450px;
+}
+
+.hr {
+  margin: 8px 0;
+}
+
+.recipe_tool_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_text {
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.btn_section {
+  display: flex;
+  gap: 8px;
+}
+
+.description {
+  padding: 8px 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}

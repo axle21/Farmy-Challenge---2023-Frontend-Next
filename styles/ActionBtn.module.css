@@ -1,0 +1,7 @@
+.edit_btn {
+  border: none;
+  background: none;
+}
+.edit_btn :hover {
+  cursor: pointer;
+}

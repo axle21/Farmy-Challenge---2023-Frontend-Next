@@ -1,0 +1,37 @@
+.form {
+  padding-top: 20px;
+  width: 650px;
+}
+
+.salad_and_type_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hr {
+  margin: 8px 0;
+}
+
+.form_field_input {
+  font-size: 18px;
+  border: none;
+}
+
+.form_field_input,
+.dropdown_selection:focus {
+  font-size: 18px;
+  border: none;
+  outline: none; /* This removes the default outline/border */
+}
+
+.dropdown_selection {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #f2994a;
+}
+
+.btn_section {
+  display: flex;
+  gap: 8px;
+}

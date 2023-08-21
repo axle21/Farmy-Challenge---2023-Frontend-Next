@@ -1,0 +1,16 @@
+.sortableItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid gray;
+  background: #f2994a;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sortableItem:hover {
+  background: #ffaa5c;
+}

@@ -1,0 +1,48 @@
+.container {
+  margin: 6rem;
+  min-height: calc(100vh - 200px);
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  align-items: center;
+}
+
+.title {
+  font-weight: 400;
+  color: #f2994a;
+  text-align: center;
+}
+
+/* Table container */
+.tableContainer {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+
+/* Table header */
+.tableHeader {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background: #f2994a;
+  color: #ffffff;
+}
+
+/* Table data cells */
+.tableCell {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Table data cells with right-aligned text */
+.tableCellAction {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+  gap: 12px;
+}
